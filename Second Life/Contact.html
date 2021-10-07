@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Second Life</title>
+        <meta charset="UTF-8">
+        <meta name="Description" content="Second Life est un blog sur mes passions.">
+        <meta name="keywords" content="Seconde,Life,Blog,Passions">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header class="bardenav">
+            <nav>
+                <a href="Accueil.html" title="Accueil">Accueil</a>
+                <a href="Dessin.html" title="Dessin">Dessin</a>
+                <a href="Manga.html" title="Manga">Manga</a>
+                <a href="Contact.html" title="Contact">Contact</a>
+            </nav>
+            <div class="social">
+                <a href="https://github.com/" title="GitHub"><img src="img/Github.png" title="GitHub" width="20" height="20"></a>
+            </div>
+        </header>
+        <div class="banniere">
+            <img src="img/Banniere.png">
+        </div>
+        <section  class="contacter">
+            <h2>Comment me contacter</h2>
+            <form action="Contact.html">
+                <div>
+                    <label for="email">Votre email</label>
+                    <textarea required id="email" name="email"></textarea>
+                </div>
+                <div>
+                    <label for="firstname">Votre prénom</label>
+                    <textarea required id="firstname" name="firstname"></textarea>
+                </div>
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea required id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Envoyer votre email</button>
+            </form>
+        </section>
+    </body>
+</html>

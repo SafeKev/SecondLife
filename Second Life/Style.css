@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.bardenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #FFF;
+    padding: 30px;
+}
+
+.bardenav nav {
+    float: left;
+}
+
+.bardenav nav a {
+    color: #9f9f9f;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 53px;
+}
+
+.bardenav nav a:hover, .bardenav nav a.active {
+    color: #000;
+}
+
+.social {
+    float: right;
+}
+
+.social a {
+    padding: 0 12px;
+    opacity: 0.5;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.banniere img {
+    width: 100%;
+    height: auto;
+}
+
+.presentation {
+   float: left;
+   height: 100px;
+   background: transparent;
+   width: 100%;
+   border: 3px solid #000;
+   margin-top: 4px;
+   padding: 50px auto;
+   text-align: center;
+}
+
+.dessin img {
+    width: 100%;
+    height: auto;
+}
+
+.manga img {
+    width: 100%;
+    height: auto;
+}
+
+.contact img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.titremanga {
+    text-align: center;
+}
+
+.imgcentre {
+    width: 30%;
+    height: auto;
+}
+
+.descriptif1 {
+    float: left;
+    height: 150px;
+    background: transparent;
+    width: 100%;
+    border: 3px solid #000;
+    margin-top: 4px;
+    padding: 50px auto;
+    text-align: center;
+}
+
+.descriptif2 {
+    float: left;
+    height: 120px;
+    background: transparent;
+    width: 100%;
+    border: 3px solid #000;
+    margin-top: 4px;
+    padding: 50px auto;
+    text-align: center;
+}
+
+.contacter {
+    text-align: center;
+}
